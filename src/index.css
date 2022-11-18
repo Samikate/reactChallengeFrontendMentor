@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family:"https://fonts.google.com/specimen/Montserrat";
+  background-color: hsl(30, 38%, 92%);
+}
+
+#root {
+  
+}
+
+.attribution {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8%;
+  margin-bottom: 3%;
+  margin-right: 3%;
+}

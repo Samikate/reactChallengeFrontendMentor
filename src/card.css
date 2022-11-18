@@ -1,0 +1,65 @@
+@media screen and (min-width: 1440px) {
+    
+.cardBody {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    height: 100%;
+    width: 30%;
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+}
+.cardImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.cardText {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 85%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0% 5% 5% 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.cardText p, h1, span, button {
+    background-color: hsl(0, 0%, 100%);
+
+}
+.cardText h1 {
+    font-family: "https://fonts.google.com/specimen/Fraunces";
+    font-size: 200%;
+    font-weight: 900;
+}
+.cardPrice {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(158, 36%, 37%);
+    font-size: 2rem;
+    font-weight: 700;
+   /* font-family:'https://fonts.google.com/specimen/Fraunces';*/
+}
+.cardPrice span {
+    color: black;
+    text-decoration: line-through;
+    text-justify: ;
+}
+
+button {
+    color: white;
+    width: 100%;
+    height: 8%;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(158, 36%, 37%);
+}
+button svg {
+    background-color: hsl(158, 36%, 37%);
+}
+}
